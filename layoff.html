@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Layoffs</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			
+			/* Center align images */
+			.image-center img, .major img {
+    			display: block;
+    			margin: 0 auto;
+			}
+
+			/* General Styling */
+			body, h3, p {
+				text-align: left;
+			}
+
+			/* Ensure images are responsive */
+			img {
+				max-width: 95%;
+				height: auto;
+				margin: 2rem 0; /* Consistent margin for images */
+			}
+
+			/* Consistent Section Padding and Margin */
+			section {
+				margin: 2rem 0; /* Consistent vertical margin */
+				padding: 1rem;  /* Padding inside each section */
+			}
+
+			/* Styling for Section Headings */
+			section h2 {
+				font-size: 1.75rem; /* Consistent font size for h2 */
+				font-weight: bold;
+				margin: 1rem 0; /* Consistent top and bottom margin */
+			}
+
+			/* Ensure h3 tags have consistent margins */
+			section h3 {
+				font-size: 1.25rem; /* Consistent font size for h3 */
+				font-weight: normal;
+				margin: 1rem 0; /* Consistent margin above and below */
+				color: #333; /* Dark color for better contrast */
+			}
+
+			/* Styling for unordered lists */
+			section ul {
+				margin: 0 0 1.5rem 1.5rem; /* Consistent list margin */
+				list-style-type: disc; /* Disc style for lists */
+			}
+
+			/* Ensure paragraphs are consistent */
+			section p {
+				font-weight: normal;
+				margin-bottom: 1rem; /* Space below paragraphs */
+			}
+
+			/* Styling for the Visualizing the Impact section */
+			.post header.major h2 {
+				font-size: 1.75rem; /* Adjusted font size for consistency */
+				font-weight: bold;
+				margin: 1.5rem 0; /* Consistent top and bottom margin */
+			}
+
+			  /* Subtitle styling */
+			  .subtitle {
+        font-size: 1.1rem;  /* Increase font size for better visibility */
+        font-weight: normal;  /* Lighter font weight */
+        color: #666; /* Lighter gray color */
+        margin-top: 0;  /* Remove top margin from subtitle */
+        margin-bottom: 1rem; /* Space below subtitle */
+        text-align: left;  /* Center the subtitle */
+    }
+
+    /* Centering the image container */
+    .image-center {
+        text-align: center;  /* Center the image */
+        margin-top: 1rem;  /* Add space above the image */
+    }
+
+    /* Image styling */
+    .image-center img {
+        max-width: 95%;  /* Ensure the image doesn't overflow */
+        height: auto;  /* Maintain aspect ratio */
+    }
+
+	h2 {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;  /* Adds space between heading and dots */
+}
+
+h2::after {
+    content: "...";  /* Inserts 3 dots */
+    position: absolute;
+    bottom: 20;
+    left: 50%;  /* Centers the dots horizontally */
+    transform: translateX(-50%);  /* Corrects the centering */
+    font-size: 18px;  /* Adjusts the size of the dots */
+    color: black;  /* Sets the color of the dots */
+    margin-top: 50px;  /* Adjusts the space between heading and dots */
+	letter-spacing: 20px;  /* Increases the space between the dots */
+}
+
+
+
+
+
+
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Project</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="layoff.html">Layoffs</a></li>
+					<li><a href="https://github.com/rohithmx11/Layoff-Data-Project/blob/main/SQL%20Queries/Layoff%20Data%20Cleaning%20and%20Analysis.sql"target="_blank">SQL Queries</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="mailto:rohithrrk@gmail.com" target="_blank" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					<li><a href="https://www.linkedin.com/in/rohith-r-48b427259/"target= "_blank" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/rohithmx11"target= "_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							
+							
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Post -->
+				<section class="post">
+					<header class="major">
+						<h1 style="font-size: 2.5rem; line-height: 1.4;">
+							Global Layoff Analysis (March 2020 - March 2023) <br />
+							
+							
+						</h1>
+						<p style="font-weight: normal;">
+							A Data-Driven Analysis Using SQL and Power BI, 
+							Examining How Industry Trends and Economic Shifts Shaped Workforce Reductions from 2020 to 2023.
+						</p>
+					</header>
+					
+
+					
+				</section>
+
+				<!-- Key Findings Section -->
+				<section>
+					<header class="major">
+						<h2>Overview</h2>
+						
+					</header>
+					<p style="font-weight: bold;">
+						Layoffs have been a defining feature of the global economy over the past few years. From the onset of the COVID-19 pandemic to subsequent market shifts, various industries have witnessed significant job cuts. 
+						This article explores key trends from 2020 to early 2023, offering insights into which sectors were hit the hardest and how layoffs evolved over time.
+					</p>
+					<header class="major">
+						<h2>Key Findings</h2>
+						
+					</header>
+					<h3>1. Overall Impact: </h3>
+					<ul>
+						<li>A total of 383,159 layoffs were recorded from 1,488 companies spanning 99 countries and 101 industries during the period.</li>
+					
+					</ul>
+					<h3>2. Industries with Highest Layoffs:</h3>
+					<img src="https://github.com/user-attachments/assets/e449c166-530a-4767-a840-f1dbf3e472ee" alt="Infection Trends">
+					<ul>
+						<li><strong>Consumer:</strong> The Consumer industry faced severe disruptions, starting with 6,063 layoffs in 2020 due to the pandemic. In 2021, layoffs decreased to 3,600, but in 2022, they surged to 19,856, marking a tough year. By 2023, layoffs fell slightly to 15,663, though the sector remained heavily impacted.</li>
+						
+							<li><strong>Retail:</strong> Retail saw significant fluctuations, with 8,002 layoffs in 2020 as businesses adjusted to the pandemic. By 2021, layoffs dropped to 1,088, showing signs of recovery. However, 2022 saw a sharp increase to 20,914, and 2023 brought a reduction to 13,609, still reflecting the industry’s ongoing struggles.</li>
+							<li><strong>Transportation:</strong> The Transportation sector was hit hard in 2020 with 14,656 layoffs. In 2022, layoffs remained high at 15,227, but by 2023, the number dropped to 3,665, signaling a slow recovery as travel demand rebounded.</li>
+							<li><strong>Healthcare:</strong> Despite being on the frontlines, Healthcare saw a rise in layoffs in 2022 (15,058) as post-pandemic adjustments took place. In 2023, layoffs decreased to 9,770, though still substantial. 2020 had relatively fewer layoffs at 1,125.</li>
+							<li><strong>Finance:</strong> The Finance sector experienced 8,624 layoffs in 2020 due to economic uncertainty. By 2022, layoffs peaked at 12,684, but in 2023, the number fell to 7,036, reflecting the sector's gradual adaptation to shifting market conditions.</li>
+						
+					</ul>
+					
+				</section>
+
+
+				<section>
+					
+					<h3>3. Notable Trends by Year:</h3>
+					<img src="https://github.com/user-attachments/assets/09ed5c88-f079-4744-a919-4fbeb9202686" alt="Infection Trends">
+					<ul>
+						<li><strong>2020:</strong> The pandemic drove major layoffs across various industries. Transportation (14,656 layoffs) and Travel (13,983 layoffs) were the hardest-hit sectors, reflecting travel restrictions and industry shutdowns. Retail (8,002 layoffs) and Consumer (6,063 layoffs) also saw significant cuts as businesses adjusted to new market conditions. Finance (8,624 layoffs) and Food (6,218 layoffs) experienced considerable job losses, with Healthcare (1,125 layoffs) relatively less impacted despite the pandemic.</li>
+						<li><strong>2021:</strong> Layoffs dropped across many sectors as companies began adjusting to the post-pandemic world. Transportation saw a sharp decrease in layoffs (200), indicating stabilization. Retail (1,088 layoffs) and Consumer (3,600 layoffs) also showed improvements. Real Estate (2,900 layoffs) and Food (2,644 layoffs) experienced moderate cuts, while Finance did not report data.</li>
+						<li><strong>2022:</strong> Layoffs spiked again, with Retail (20,914 layoffs) and Consumer (19,856 layoffs) seeing massive increases, driven by ongoing disruptions and economic shifts. Healthcare (15,058 layoffs) faced significant cuts due to post-pandemic adjustments, and Transportation (15,227 layoffs) continued to be heavily impacted. Food (11,288 layoffs) and Real Estate (9,932 layoffs) also faced substantial losses, while Hardware (605 layoffs) and Travel (1,637 layoffs) experienced moderate disruptions.</li>
+						<li><strong>2023:</strong> Layoffs generally declined, with the Other sector experiencing a massive jump to 28,512 layoffs, possibly due to restructuring or changes in the gig economy. Consumer (15,663 layoffs) and Retail (13,609 layoffs) remained significantly impacted, though layoffs were lower than in 2022. Healthcare (9,770 layoffs) and Transportation (3,665 layoffs) saw reductions, indicating some industry recovery. Finance (7,036 layoffs) and Food (2,705 layoffs) experienced moderate cuts, while Hardware (13,223 layoffs) saw a drastic increase.</li>
+					</ul>
+					
+					
+				</section>
+
+				<section>
+					
+					<h3>4. Industries with Lower Layoffs:</h3>
+					
+					<ul>
+						<li><strong>Aerospace and Energy:</strong> These sectors showed relatively lower layoff numbers across the years. Aerospace had fewer than 1,000 layoffs in each of the years analyzed, and Energy had 167 in 2020 and 635 in 2022.</li>
+						<li><strong>Marketing:</strong> Layoffs were fewer in this sector in 2021 (21), but the number rose significantly in 2023 (3,682), showing the shifting dynamics in demand for marketing roles.</li>
+					</ul>
+					
+				</section>	
+
+				<section class="major">
+					
+					<!-- Subheading for this section -->
+					<header class="major">
+					<h2>Dive Deeper with the Interactive Dashboard</h2>
+				</header>
+					<p>Explore the full interactive COVID-19 analysis using our dashboard. 
+					   This tool allows you to filter data by continent, country, and timeline to better understand the trends, 
+					   test rates, and fatality statistics across various HDI categories.
+					</p>
+					<!-- Key Features -->
+				    
+					<a href="https://app.powerbi.com/view?r=eyJrIjoiZTZjYjYxMTUtMjZkOS00NzY1LTg3NDYtMTg5Y2ZlMmExNTJlIiwidCI6IjBmNmY2NGI0LTgwNDEtNGU0MC1iYTEyLWRkYjRkN2QyNWM5ZSJ9" target="_blank" 
+					class="button">Access the Interactive Dashboard Here</a>
+				</section>	
+				
+				<section class="major">
+				
+					
+				
+					<!-- Link to the Interactive Dashboard -->
+					
+					<section class="major">
+						<!-- Dashboard Preview Heading -->
+						<header class="major">
+						<h2>Dashboard Preview</h2>
+					</header>
+						
+						<!-- First Image Preview -->
+						<div class="image-center">
+							<img src="https://github.com/user-attachments/assets/0a0fc62b-2157-48da-a425-024a1bc6bc79" alt="Dashboard Preview 1" style="max-width: 100%; height: auto; margin: 1.5rem 0;">
+						</div>
+					
+					
+					</section>
+				</section>
+					
+				<section>
+					<header class="major">
+						<h2>Conclusion</h2>
+					</header>
+					<p>The analysis of layoffs from 2020 to 2023 reveals distinct patterns across industries, with some sectors experiencing significant workforce reductions due to changing economic conditions. Key insights include:</p>
+<ol>
+    <li><strong>Healthcare Layoffs Show a Unique Trend:</strong> There were no layoffs reported in the healthcare sector during 2021. However, layoffs increased sharply in 2022, reaching 15,058. The trend slightly eased in 2023, with 9,770 layoffs.</li>
+    <li><strong>Retail and Consumer Industries Were the Hardest Hit:</strong> Retail layoffs peaked in 2022 at 20,914, making it the hardest-hit sector. Similarly, the Consumer sector saw massive workforce reductions, particularly in 2022 (19,856) and 2023 (15,663), reflecting shifting market dynamics.</li>
+    <li><strong>Transportation Layoffs Reflect Pandemic and Post-Pandemic Challenges:</strong> Transportation faced significant layoffs, particularly in 2020 (14,656) and 2022 (15,227), as the sector struggled to adapt to fluctuating demand during and after the pandemic.</li>
+    <li><strong>Gradual Recovery in Some Sectors:</strong> The Food and Transportation industries showed signs of recovery in 2023, with fewer layoffs compared to the peak levels in earlier years.</li>
+    <li><strong>Broader Economic Trends Evident in Layoff Patterns:</strong> The layoff trends underscore the economic disruptions caused by the pandemic and its aftermath, from supply chain interruptions to shifts in consumer behavior and digitalization across sectors.</li>
+</ol>
+<p>The pandemic not only brought health concerns but also caused significant financial uncertainties. Despite the surge in demand, even the Healthcare sector faced numerous layoffs, highlighting the far-reaching impacts of the crisis. A crisis of this scale can alter the entire economic landscape and transform the nature of work. Industries like Retail, Consumer, and Transportation experienced major disruptions, while others like Finance and Food had to adapt to shifting consumer behavior. 
+	The ongoing effects of the pandemic continue to reshape sectors, leaving long-lasting impacts on employment trends and industry dynamics.</p>
+				</section>
+
+			<section>
+				<header class="major">
+				<h2>Note to Readers</h2>
+			</header>
+<p>To explore the data behind this analysis or learn more about how the findings were derived, you can access them here:</p>
+<ul>
+    <li>
+        <strong>Layoff Dataset:</strong> 
+        <a href="https://github.com/rohithmx11/PortfolioProjects/tree/main/dataset"style="color: blue;" target="_blank">Download the Dataset</a>
+    </li>
+    <li>
+        <strong>Queries Used:</strong> 
+        <a href="https://github.com/rohithmx11/Layoff-Data-Project/blob/main/SQL%20Queries/Layoff%20Data%20Cleaning%20and%20Analysis.sql"style="color: blue;" target="_blank">View the Queries</a>
+    </li>
+</ul>
+
+			</section>	
+				
+				
+
+		</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<script>
+			// Get all images on the page
+			const images = document.querySelectorAll('img');
+			
+			// Loop through each image
+			images.forEach(image => {
+				const imgUrl = image.src; // Get the image URL
+				
+				// Create an anchor element
+				const anchor = document.createElement('a');
+				anchor.href = imgUrl;  // Set the href to the image URL
+				anchor.target = '_blank'; // Set target to open in a new tab
+				
+				// Wrap the image with the anchor
+				image.parentNode.insertBefore(anchor, image);
+				anchor.appendChild(image);
+			});
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Happy Index</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			
+			/* Center align images */
+			.image-center img, .major img {
+    			display: block;
+    			margin: 0 auto;
+			}
+
+			/* General Styling */
+			body, h3, p {
+				text-align: left;
+			}
+
+			/* Ensure images are responsive */
+			img {
+				max-width: 95%;
+				height: auto;
+				margin: 2rem 0; /* Consistent margin for images */
+			}
+
+			/* Consistent Section Padding and Margin */
+			section {
+				margin: 2rem 0; /* Consistent vertical margin */
+				padding: 1rem;  /* Padding inside each section */
+			}
+
+			/* Styling for Section Headings */
+			section h2 {
+				font-size: 1.75rem; /* Consistent font size for h2 */
+				font-weight: bold;
+				margin: 1rem 0; /* Consistent top and bottom margin */
+			}
+
+			/* Ensure h3 tags have consistent margins */
+			section h3 {
+				font-size: 1.25rem; /* Consistent font size for h3 */
+				font-weight: normal;
+				margin: 1rem 0; /* Consistent margin above and below */
+				color: #333; /* Dark color for better contrast */
+			}
+
+			/* Styling for unordered lists */
+			section ul {
+				margin: 0 0 1.5rem 1.5rem; /* Consistent list margin */
+				list-style-type: disc; /* Disc style for lists */
+			}
+
+			/* Ensure paragraphs are consistent */
+			section p {
+				font-weight: normal;
+				margin-bottom: 1rem; /* Space below paragraphs */
+			}
+
+			/* Styling for the Visualizing the Impact section */
+			.post header.major h2 {
+				font-size: 1.75rem; /* Adjusted font size for consistency */
+				font-weight: bold;
+				margin: 1.5rem 0; /* Consistent top and bottom margin */
+			}
+
+			  /* Subtitle styling */
+			  .subtitle {
+        font-size: 1.1rem;  /* Increase font size for better visibility */
+        font-weight: normal;  /* Lighter font weight */
+        color: #666; /* Lighter gray color */
+        margin-top: 0;  /* Remove top margin from subtitle */
+        margin-bottom: 1rem; /* Space below subtitle */
+        text-align: left;  /* Center the subtitle */
+    }
+
+    /* Centering the image container */
+    .image-center {
+        text-align: center;  /* Center the image */
+        margin-top: 1rem;  /* Add space above the image */
+    }
+
+    /* Image styling */
+    .image-center img {
+        max-width: 95%;  /* Ensure the image doesn't overflow */
+        height: auto;  /* Maintain aspect ratio */
+    }
+
+	h2 {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;  /* Adds space between heading and dots */
+}
+
+h2::after {
+    content: "...";  /* Inserts 3 dots */
+    position: absolute;
+    bottom: 20;
+    left: 50%;  /* Centers the dots horizontally */
+    transform: translateX(-50%);  /* Corrects the centering */
+    font-size: 18px;  /* Adjusts the size of the dots */
+    color: black;  /* Sets the color of the dots */
+    margin-top: 50px;  /* Adjusts the space between heading and dots */
+	letter-spacing: 20px;  /* Increases the space between the dots */
+}
+
+
+
+
+
+
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Project</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="happy.html">Happy Index</a></li>
+					<li><a href="https://github.com/rohithmx11/Happy-Index-data-Project/blob/main/Happy_index_2023_project.ipynb"target="_blank">ipynb</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="mailto:rohithrrk@gmail.com" target="_blank" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					<li><a href="https://www.linkedin.com/in/rohith-r-48b427259/"target= "_blank" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/rohithmx11"target= "_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							
+							
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Post -->
+				<section class="post">
+					<header class="major">
+						<h1 style="font-size: 2.5rem; line-height: 1.4;">
+							2023 Happiness Index Analysis: A Closer Look at What Shapes Global Well-being and Happiness <br />
+							
+							
+						</h1>
+						<p style="font-weight: normal;">
+							A Data-Driven Analysis Using Python, Exploring How Key Factors Shaped Global Happiness Rankings in 2023.
+						</p>
+						
+						<img src="images/World-Happiness-Index-2023.png" alt="World Happiness Index 2023">
+					</header>
+					
+
+					
+				</section>
+
+				<section>
+					<h3>Introduction</h3>
+					<p style="font-weight: bold;">
+					The Happiness Index 2023 ranks countries based on various factors contributing to the well-being and happiness of their citizens. This analysis focuses on the top 10 happiest and bottom 10 unhappiest countries,
+					 using bar charts to visualize the rankings and provide key insights into the factors influencing these outcomes.
+					</p>
+			     </section>
+				
+				 <section class="happiest-countries">
+					<h3>1. Top 10 Happiest Countries</h3>
+					<p>The bar chart below illustrates the happiness scores of the top 10 happiest countries:</p>
+					<div class="image-left">
+					  <img src="https://github.com/user-attachments/assets/708c451b-1646-4b8f-80f0-90d225f5e48c" alt="Happiness Scores of Top 10 Countries">
+					</div>
+					<h3>Key Insights:</h3>
+					<ul>
+					  <li>Finland continues to dominate the rankings as the happiest country, supported by strong social systems, economic stability, and high life expectancy.</li>
+					  <li>Scandinavian countries such as Denmark, Iceland, and Sweden showcase the benefits of robust welfare models.</li>
+					  <li>Israel, ranking fourth, stands out in the Middle East, reflecting significant social support and governance stability.</li>
+					</ul>
+				</section>
+				  
+
+
+				  <section class="unhappiest-countries">
+					<h3>2. Bottom 10 Happiest Countries</h3>
+					<p>The bar chart below illustrates the happiness scores of the bottom 10 unhappiest countries:</p>
+					<div class="image-left">
+					  <img src="https://github.com/user-attachments/assets/df313614-a749-4afc-85d9-da328aeb05f5" alt="Happiness Scores of Bottom 10 Countries">
+					</div>
+					<h3>Key Insights:</h3>
+					<ul>
+					  <li>Afghanistan remains the unhappiest country, facing challenges such as ongoing conflict, economic hardships, and governance issues.</li>
+					  <li>Countries such as Lebanon, Sierra Leone, and Zimbabwe struggle with governance challenges, corruption, and limited access to healthcare and education.</li>
+					  <li>The presence of multiple African nations in the bottom rankings highlights regional challenges in economic development and governance.</li>
+					</ul>
+				  </section>
+				  
+
+				  <section class="scatter-plot">
+					<h3>3. Scatter Plot: GDP Per Capita Income vs. Happiness Index</h3>
+					<p>To explore the relationship between economic prosperity and happiness, a scatter plot was created between GDP per capita income and the Happiness Index scores.</p>
+					<div class="image-left">
+					  <img src="https://github.com/user-attachments/assets/6feb4729-f844-4b53-80f9-79465179c1a0" alt="GDP Per Capita Income vs Happiness Index">
+					</div>
+					<h3>Key Insights:</h3>
+					<ul>
+					  <li>A strong positive relationship exists between GDP per capita income and Happiness Index scores, with higher GDP leading to higher happiness.</li>
+					  <li>Countries in Western Europe, with higher economic stability, are positioned in the upper-right quadrant, indicating both high GDP and high happiness.</li>
+					  <li>Nations in some African regions, with lower GDP per capita income, are concentrated in the lower-left quadrant, reflecting economic struggles and lower happiness levels.</li>
+					</ul>
+				  </section>
+					  
+
+				  <section class="corruption-happiness">
+					<h3>4. Relationship Between Corruption and Happiness Score</h3>
+					<p>The analysis also examined the relationship between Perceptions of Corruption and Happiness Scores for the top 10 happiest and bottom 10 unhappiest countries.</p>
+					<div class="image-left">
+					  <img src="https://github.com/user-attachments/assets/72f7d915-594d-499e-8918-d6e28d8da2cd" alt="Top 10 Happiness vs Corruption">
+					</div>
+					<h3>Key Insights:</h3>
+					<ul>
+					  <li>Among the top 10 happiest countries, 8 out of 10 exhibit low perceptions of corruption, which strongly correlates with their high happiness scores.</li>
+					  <li>In contrast, all of the bottom 10 unhappiest countries report high perceptions of corruption, indicating that corruption significantly undermines the well-being of their citizens.</li>
+					  <li>This disparity underscores the importance of transparent governance and anti-corruption measures in fostering societal happiness.</li>
+					</ul>
+				  </section>
+				  
+				
+				
+				</section>
+					
+				<section class="conclusion">
+					
+					<h3>Conclusion:</h3>
+					<p>This analysis underscores the stark contrast between the happiest and unhappiest countries in the world. While economic stability, social support, and governance drive happiness in top-ranking nations, conflict, corruption, and lack of basic needs suppress happiness in the lowest-ranking ones.</p>
+					<p>The correlation between GDP per capita and happiness, as well as the impact of corruption, further emphasizes the importance of economic development and transparent governance in improving global well-being.</p>
+				
+				</section>
+				  
+
+				<section>
+					<h3>Note to Readers:</h3>
+					<p>Feel free to download the dataset from this GitHub repository. For additional visuals and a deeper dive into the findings, 
+						be sure to explore the full analysis in this <a href="https://github.com/rohithmx11/Happy-Index-data-Project/blob/main/Happy_index_2023_project.ipynb" style="color: blue;" target="_blank"> GitHub repository</a>.</p>
+					
+				</section>
+				
+				
+				
+				
+
+		</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<script>
+			// Get all images on the page
+			const images = document.querySelectorAll('img');
+			
+			// Loop through each image
+			images.forEach(image => {
+				const imgUrl = image.src; // Get the image URL
+				
+				// Create an anchor element
+				const anchor = document.createElement('a');
+				anchor.href = imgUrl;  // Set the href to the image URL
+				anchor.target = '_blank'; // Set target to open in a new tab
+				
+				// Wrap the image with the anchor
+				image.parentNode.insertBefore(anchor, image);
+				anchor.appendChild(image);
+			});
+		</script>
+		
+	</body>
+</html>
